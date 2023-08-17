@@ -1,11 +1,15 @@
 import styles from './Menu.module.css'
 import MenuLink from '../MenuLink';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 const Menu = () => {
+
+    const navigate = useNavigate()
+
     return (
         <header className={styles.menu}>
             <nav className={styles.navegacao}>
-                <img className={styles.logo} src='/imagem_Tum_white.png'/>
+                <img onClick={() => navigate('/')} className={styles.logo} src='/imagem_Tum_white.png'/>
                 <MenuLink to='/consulta-historico'>
                     Consultar Histórico
                 </MenuLink>
