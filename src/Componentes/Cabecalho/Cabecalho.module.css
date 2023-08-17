@@ -1,0 +1,11 @@
+.container {
+    padding: 1rem 2rem;
+}
+
+.texto {
+    font-size: 2rem;
+    letter-spacing: 4px;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    text-shadow: 1px 1px 2px #3E3636;
+}

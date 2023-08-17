@@ -5,7 +5,7 @@ const Menu = () => {
     return (
         <header className={styles.menu}>
             <nav className={styles.navegacao}>
-                <img className={styles.logo} src='/imagem_Tum.png'/>
+                <img className={styles.logo} src='/imagem_Tum_white.png'/>
                 <MenuLink to='/consulta-historico'>
                     Consultar Histórico
                 </MenuLink>
