@@ -1,0 +1,25 @@
+.navegacao {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0.75rem 2.5%;
+    background-color: #D72323;
+    align-items: center;
+    box-shadow: 2px 2px 4px #aaa;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 2rem;
+}
+
+
+@media (max-width: 767px) {
+    .navegacao {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+}
