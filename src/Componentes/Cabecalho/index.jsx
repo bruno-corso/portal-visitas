@@ -1,6 +1,6 @@
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router';
 import styles from './Cabecalho.module.css'
-import Menu from '../Menu';
+
 
 const Cabecalho = () => {
 
@@ -8,15 +8,16 @@ const Cabecalho = () => {
 
     function textoCabecalho() {
         return (
-            local === '/' ? "Tela Inical" :
-                local === '/consulta-historico' ? "Consulta Histórico" :
-                    local === '/visitacao-hoje' ? "Visitação Hoje" :
-                        local === '/agendamento' ? "Agendar..." :
-                            local === '/agenda' ? "Agenda Futura" :
+            local === '/' ? "Selcione acima o que deseja fazer..." :
+                local === '/consulta-historico' ? "Consultar Histórico de Visitas" :
+                    local === '/visitacao-hoje' ? "Visitantes Hoje" :
+                        local === '/agendamento' ? "Agendar uma Nova Vista" :
+                            local === '/agenda' ? "Visualizar Agendamentos" :
                                 local === '/visitante' ? "Buscar Visitante Específico" :
                                     "INDEFINIDO"
         )
     }
+
 
     return (
         <>

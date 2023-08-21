@@ -1,0 +1,13 @@
+.areaCards{
+    width: 90%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.areaCards ul {
+    list-style: none;
+
+}

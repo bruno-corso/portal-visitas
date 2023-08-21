@@ -1,12 +1,13 @@
-.link_ativo{
+.link_ativo {
     font-weight: bold;
 }
 
-.link{
+.link {
     color: #3E3636;
     text-decoration: none;
     margin-right: 3rem;
     letter-spacing: 1px;
+    font-size: 1.25rem;
 }
 
 .link:hover {
@@ -14,7 +15,8 @@
 }
 
 @media (max-width: 767px) {
-    .link{
-        margin-right: 0
+    .link {
+        margin-right: 0;
+        font-size: 1rem
     }
 }
