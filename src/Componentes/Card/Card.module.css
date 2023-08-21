@@ -4,6 +4,9 @@
     align-items: center;
     gap: 12px;
     width: 200px;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 6px;
 }
 
 .card img {
