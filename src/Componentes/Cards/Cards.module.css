@@ -1,13 +1,12 @@
 .areaCards{
-    width: 90%;
     margin: 4rem auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
+    padding: 0  40px;
 }
 
 .areaCards ul {
     list-style: none;
-
+    padding: 0;
 }

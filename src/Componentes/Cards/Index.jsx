@@ -7,8 +7,8 @@ const Cards = ({ dados }) => {
             {
                 dados.map((item) => {
                     return(
-                    <ul>
-                        <li key={item.INDEX_VISITA}>
+                    <ul key={item.INDEX_VISITA}>
+                        <li>
                             <Card visita={item} />
                         </li>
                     </ul>)
