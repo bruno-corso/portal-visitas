@@ -1,4 +1,4 @@
-import Card from '../Card';
+import Card2 from '../Card2';
 import styles from './Cards.module.css'
 
 const Cards = ({ dados }) => {
@@ -9,7 +9,7 @@ const Cards = ({ dados }) => {
                     return(
                     <ul key={item.INDEX_VISITA}>
                         <li>
-                            <Card visita={item} />
+                            <Card2 visita={item} />
                         </li>
                     </ul>)
 

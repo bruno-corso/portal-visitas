@@ -1,0 +1,12 @@
+.agendafutura{
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0  40px;
+}
+
+.agendafutura ul {
+    list-style: none;
+    padding: 0;
+}
