@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import Input from '../Input';
+import Input from '../../Componentes/Input';
 import styles from './Historico.module.css'
 import { parse } from 'date-fns'; // Importa a função de formatação da biblioteca
-import Botao from '../Botao';
-import Cards from '../Cards/Index';
+import Botao from '../../Componentes/Botao';
+import Cards from '../../Componentes/Cards/Index';
 
 const ConsultarHistorico = ({ dados_visitas }) => {
 

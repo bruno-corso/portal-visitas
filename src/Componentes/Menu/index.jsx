@@ -20,7 +20,7 @@ const Menu = () => {
                     Agendamento
                 </MenuLink>
                 <MenuLink to='/agenda'>
-                    Agenda Futura
+                    Próximas Visitas
                 </MenuLink>
                 <MenuLink to='/visitante'>
                     Buscar Visitante

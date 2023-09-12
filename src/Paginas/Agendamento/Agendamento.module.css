@@ -1,0 +1,15 @@
+.agendamento {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.agendamento input {
+    margin-bottom: 1rem;
+    width: 400px;
+}
+
+.agendamento button {
+    width: 300px;
+}
