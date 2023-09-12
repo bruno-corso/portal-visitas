@@ -21,7 +21,9 @@ const Agendamento = () => {
     }
 
     function setarCPFVisitante(event) {
-        return setCPFVisitante(event.target.value);
+        const cpfSujo = event.target.value
+        const cpfLimpo = cpfSujo.replace(/[^0-9]/g,"")
+        return setCPFVisitante(cpfLimpo);
     }
 
     function setarEmpresaVisitante(event) {

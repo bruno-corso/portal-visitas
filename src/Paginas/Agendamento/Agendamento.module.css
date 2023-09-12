@@ -13,3 +13,18 @@
 .agendamento button {
     width: 300px;
 }
+
+@media (max-width: 767px) {
+
+    .agendamento {
+        align-items: center;
+    }
+
+    .agendamento input {
+        width: 90%;
+    }
+    
+    .agendamento button {
+        width: 60%;
+    }
+}
